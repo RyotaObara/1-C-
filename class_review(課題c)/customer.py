@@ -1,3 +1,4 @@
+# Feature
 class Customer:
     def __init__(self, first_name, family_name, age):
         self.first_name = first_name
@@ -19,7 +20,6 @@ class Customer:
         return f"{self.full_name()},{self.age},{self.entry_fee()}"
 
 
-# --- 動作確認 ---
 ken = Customer(first_name="Ken", family_name="Tanaka", age=15)
 tom = Customer(first_name="Tom", family_name="Ford", age=57)
 ieyasu = Customer(first_name="Ieyasu", family_name="Tokugawa", age=75)
@@ -45,3 +45,5 @@ print(ieyasu.entry_fee())
 print(ken.info_csv())
 print(tom.info_csv())
 print(ieyasu.info_csv())
+print(ieyasu.info_csv())
+
